@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nurtured Neurons Trust - Fundraising for Child's Surgery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #d0f0c0, #a8e6cf, #f5f9ff);
+      margin: 0;
+    }
+    header {
+      background-color: #2c6d6d;
+      padding: 10px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+   
+      header img {
+  height: 50px;
+  background-color: #ffffff; /* White background behind logo */
+  padding: 5px;              /* Add some space around the image */
+  border-radius: 8px;        /* Slightly rounded corners */
+}
+
+    header h2 {
+      margin-left: 10px;
+      color: #ff7f50;
+      background-color: #d0f0c0;
+      padding: 5px 15px;
+      border-radius: 8px;
+      font-size: 1.2em;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: underline;
+      color: #ffffff;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #ff7f50;
+    }
+    .donate-button {
+      background: linear-gradient(45deg, #3a9e7b, #2c6d6d);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .donate-button:hover {
+      background: linear-gradient(45deg, #2c6d6d, #3a9e7b);
+    }
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(rgba(44,109,109,0.7), rgba(44,109,109,0.7)),
+      url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80') center/cover no-repeat;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .slider-container {
+      width: 90%;
+      overflow: hidden;
+      position: relative;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    .slide {
+      min-width: 100%;
+      height: 400px;
+    }
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+    .arrow-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 15px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 50%;
+    }
+    .arrow-left { left: 10px; }
+    .arrow-right { right: 10px; }
+    main { padding: 20px; }
+    section {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      max-width: 900px;
+      padding: 20px;
+    }
+    .progress-bar {
+      background: #ddd;
+      border-radius: 20px;
+      width: 100%;
+      height: 25px;
+      overflow: hidden;
+    }
+    .progress {
+      background: #3cb371;
+      width: 60%;
+      height: 100%;
+      text-align: center;
+      color: white;
+      line-height: 25px;
+    }
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid #3cb371;
+      margin: 10px 0;
+      padding-left: 10px;
+    }
+    ul { list-style: none; padding: 0; }
+    ul li::before {
+      content: "✔ ";
+      color: green;
+    }
+    .card img.profile {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: -60px;
+      border: 4px solid white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .qr-section img { width: 150px; }
+    .social a {
+      display: inline-block;
+      margin-right: 10px;
+      text-decoration: none;
+      color: #3cb371;
+      font-weight: bold;
+    }
+    .sticky-donate {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #ff6347;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 50px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display: flex; align-items: center;">
+    <img src="https://static.wixstatic.com/media/bf869b_53596bff89504261ab5cad95b65a505c~mv2.png/v1/fit/w_2500,h_1330,al_c/bf869b_53596bff89504261ab5cad95b65a505c~mv2.png" alt="Logo">
+    <h2>NURTURED NEURONS TRUST</h2>
+  </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="https://muthalagammai-123.github.io/nutured-neurons/">About Us</a>
+    <a href="https://pooja-13-06.github.io/demoproject/">Schemes</a>
+    <a href="https://nivetha2007-nive.github.io/programming/">Get Involved</a>
+    <a href="https://nisha-k-s.github.io/Nurtured-Neurons/">Contact Info</a>
+    <button class="donate-button">Donate Now</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Help a Child, Save a Life 💖</h1>
+</section>
+
+<section class="slider-container">
+  <div class="slides">
+    <div class="slide"><img src="https://www.sliderrevolution.com/wp-content/uploads/2021/05/Trust.jpg" alt="Slide 1"></div>
+    <div class="slide"><img src="https://cdn.cssauthor.com/wp-content/uploads/2022/04/Welfare.jpg?strip=all&lossy=1&ssl=1" alt="Slide 2"></div>
+    <div class="slide"><img src="https://www.greenhouseschoolwebsites.co.uk/blog/wp-content/uploads/2019/07/schoolsworks-trust.jpg" alt="Slide 3"></div>
+    <div class="slide"><img src="https://media.licdn.com/dms/image/v2/D5622AQFh8LDqbGpETQ/feedshare-shrink_800/B56ZW8CXGUGsAg-/0/1742616491847?e=2147483647&v=beta&t=R-Rz1dj0MolEHeXpa1Ruq-ytcafVv0fzbDL4QwY0-dc" alt="Slide 4"></div>
+  </div>
+  <button class="arrow-button arrow-left" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="arrow-button arrow-right" onclick="moveSlide(1)">&#10095;</button>
+</section>
+
+<main>
+  <section class="card" style="text-align:center;">
+    <img class="profile" src="https://media.gettyimages.com/id/613253596/photo/group-of-happy-gypsy-indian-children-desert-village-india.jpg?s=612x612&w=gi&k=20&c=xcHn3bTaaHWHjfJPVrqwz3Asq3SIyhQD6wFrJCK22zg=" alt="Child">
+    <h2>About the Child</h2>
+    <p>This little warrior is fighting Tetralogy of Fallot, a critical heart condition. Surgery at MGM Health Care, Chennai, will cost ₹4–5 lakhs. Let's help save his life.</p>
+  </section>
+
+  <section>
+    <h2>Goal Progress</h2>
+    <div class="progress-bar">
+      <div class="progress">₹3,00,000 / ₹5,00,000</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Time Left</h2>
+    <p id="countdown" style="font-weight: bold; font-size: 1.2em; color: red;"></p>
+  </section>
+
+  <section>
+    <h2>What Our Supporters Say</h2>
+    <blockquote>"Every child deserves a chance. Happy to contribute!" — Priya, Chennai</blockquote>
+    <blockquote>"Such a trustworthy cause. Wishing the child a speedy recovery!" — Raj, Bangalore</blockquote>
+  </section>
+
+  <section>
+    <h2>How You Can Help</h2>
+    <p>Scan the QR code or use the UPI ID below to donate:</p>
+    <div class="qr-section" style="text-align:center;">
+      <img src="https://user-images.githubusercontent.com/26814804/66174669-95419a00-e699-11e9-9b3c-0aac91eee822.png" alt="QR Code">
+      <div class="qr-label">Scan to Donate</div>
+      <div class="upi-id">UPI ID: 009994155999@icici</div>
+    </div>
+  </section>
+
+  <section class="social">
+    <h2>Share With Friends</h2>
+    <a href="https://wa.me/?text=Please support this child: [your site link]" target="_blank">WhatsApp</a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=[your site link]" target="_blank">Facebook</a>
+    <a href="https://twitter.com/intent/tweet?url=[your site link]&text=Please support this child" target="_blank">Twitter</a>
+  </section>
+</main>
+
+<div class="sticky-donate" onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});">
+  ❤ Donate Now
+</div>
+
+<script>
+  let currentIndex = 0;
+  function moveSlide(direction) {
+    const slides = document.querySelector('.slides');
+    const totalSlides = document.querySelectorAll('.slide').length;
+    currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+    slides.style.transform = translateX(-${currentIndex * 100}%);
+  }
+
+  var deadline = new Date("May 31, 2025 23:59:59").getTime();
+  var x = setInterval(function() {
+    var now = new Date().getTime();
+    var t = deadline - now;
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+    document.getElementById("countdown").innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s left to save a life!";
+    if (t < 0) {
+      clearInterval(x);
+      document.getElementById("countdown").innerHTML = "Time's up! Please help urgently!";
+    }
+  }, 1000);
+</script>
+
+</body>
+</html>
